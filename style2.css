@@ -1,0 +1,69 @@
+
+
+
+
+.button{
+
+    display: block;
+    margin: inline-auto;
+  border: 1px solid black;
+   width: 100px;
+   padding: 9px;
+   font-size: 20px;
+   text-transform: uppercase;
+   text-align: center;
+   border-radius: 10px;
+   background: #aadddd;
+   transition: transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   background:-webkit-linear-gradient(bottom, purple 30%, #77aaaa 100%);
+    background:-ms-linear-gradient(bottom, purple 30%, #77aaaa 100%) ;
+   background:-webkit-linear-gradient(bottom, purple 30%, #77aaaa 100%);
+   background:-webkit-linear-gradient(bottom, purple 30%, #77aaaa 100%);
+   background:linear-gradient(bottom, purple 30%, #77aaaa 100%);
+}
+
+
+3
+.button:hover{
+            transform: scale(1.1);
+            transition: 2s;
+            cursor: pointer;
+            color:  black;
+           background:#aadddd;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+button{
+padding: 10px;
+      background: 0ch;
+      color: rgb(26, 211, 192);
+      border-radius: 1opx;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+button:hover{
+  background: violet;
+      color: turquoise;
+      transition: 1s;
+      border: 0ch;
+      animation: alternate;
+     cursor: auto;
+  }
